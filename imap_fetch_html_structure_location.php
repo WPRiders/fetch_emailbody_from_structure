@@ -7,6 +7,13 @@
  * License: GPL2
  */
 
+/**
+ * This snippet is part of the article published here: 
+ * [TODO: add link back to our post here] 
+ *
+ * In case you want to work with us, please post your task here: 
+ * www.wpriders.com/hire-us-ref
+*/
 
 function extract_body_part_path( $structure, $content_type_search = 'HTML' ) {
 	/*
@@ -93,5 +100,8 @@ echo $structure_path_final['encoding']; // integer value 0, 1, 2...
 
 $email_html_content = imap_fetchbody( $imap_connection, $email_number, $structure_path_final['path'], FT_UID );
 $content            = your_decoding_method( $content, (int) $structure_path_final['encoding'] );
+
+// ... code ( process the content, close connection and so on )
+
 // Remember, IMAP must be compiled with SSL in order to connect
 ?>
