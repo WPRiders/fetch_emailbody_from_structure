@@ -1,4 +1,4 @@
-?php 
+<?php 
 /**
  * Author: Marius Vetrici, Mihai Irodiu from WPRiders
  * Author URL: http://www.wpriders.com
